@@ -31,7 +31,7 @@ loginButton.addEventListener('click', () => {
     // الشيفرة هنا للتحقق من بيانات المستخدم وعرضها في صفحة العرض
 
     // بعد التحقق والعرض، قم بتوجيه المستخدم إلى صفحة اللوحة
-    window.location.href = '../stop.html';
+    window.location.href = 'system.html';
 });
 
 
