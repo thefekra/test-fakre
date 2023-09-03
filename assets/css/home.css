@@ -1,0 +1,222 @@
+    
+    
+    
+        /* أسلوب CSS للروابط */
+        a {
+            color: black;
+            /* تحديد لون الخط الأسود */
+            text-decoration: none;
+            /* إزالة خط الزخرفة (التأثير) عند النقر */
+        }
+    
+        /* أسلوب CSS للروابط النشطة عند النقر عليها */
+        a:active {
+            color: black;
+            /* تحديد لون الخط الأسود */
+        }
+    
+        .navbar {
+            background-color: rgb(255, 255, 255);
+            /* لون خلفية الشريط العلوي */
+            height: 60px;
+            /* ارتفاع الشريط العلوي */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            /* جعل الشريط ثابتًا في الأعلى */
+            top: 0;
+            left: 0;
+            right: 0;
+    
+        }
+    
+        .logo img {
+            width: 40px;
+            /* عرض الوجو */
+            height: 40px;
+            /* ارتفاع الوجو */
+        }
+    
+        .name {
+            margin-left: 10px;
+            /* المسافة بين الوجو والاسم */
+        }
+    
+        .name h1 {
+            font-family: "Roboto", sans-serif;
+        }
+    
+    
+    
+    
+    
+    
+        /* ===== FOOTER =====*/
+        .footer {
+        background-color: var(--second-color);
+        background-color: #0E2431;
+        color: #fff;
+        text-align: center;
+        font-weight: var(--font-semi);
+        padding: 2rem 0;
+        border-radius: 10px 10px 0 0 ;
+    }
+    
+    
+    .footer__title {
+        font-size: 2rem;
+        margin-bottom: var(--mb-4);
+    }
+    
+    .footer__social {
+        margin-bottom: var(--mb-4);
+    }
+    
+    .footer__icon {
+        font-size: 1.5rem;
+        color: #fff;
+        margin:  var(--mb-2)
+    } */
+    
+        CSS styles here 
+    .footer__social a:not(:last-child) {
+        margin-right: 10px;
+    
+    }
+    
+    .footer__social a:not(:first-child) {
+        margin-left: 10px;
+    }
+    
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /* كود تسجيل الدخول */
+    
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+
+   
+
+    .container h1 {
+        margin-top: 90px;
+    }
+
+    .fekra h1 {
+        margin-top: auto;
+        font-size: 32px;
+    }
+
+    .nam,
+    .email {
+        font-size: 20px;
+        margin-left: 250px;
+        margin-bottom: 5px;
+    }
+
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    #team {
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+        margin-top: 0px;
+
+    }
+
+    .team {
+        margin-top: 15px;
+        margin-left: 200px;
+
+    }
+
+    #gender {
+        width: 400px;
+        height: 30px;
+        border-radius: 10px;
+
+
+    }
+
+    .gender {
+        margin-top: 1px;
+        margin-left: 200px;
+
+    }
+
+
+    .team,
+    .gender {
+        font-size: 15px;
+        margin-left: 230px;
+
+    }
+
+    label,
+    select,
+    input {
+        margin: 6px 0;
+        border-radius: 10px;
+        width: 300px;
+        height: 30px;
+
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #0E2431;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 300px;
+        height: 40px;
+
+    }
+
+/* إضافة تنسيق Flexbox لصندوقي الاختيار */
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 300px;
+    direction: rtl;
+   
+}
+
+
+    /* تحديد عرض الـ label والـ select */
+    label,
+    select {
+        width: 45%;
+        /* يمكنك ضبط عرضهما بحسب احتياجاتك */
+    }

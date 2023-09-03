@@ -1,0 +1,39 @@
+body , html {
+  height: 90%;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh; /* تجعل الصفحة تحتوي على الحد الأدنى من الارتفاع المرئي */
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+input, button {
+  margin-right: 10px;
+  margin-bottom: 10px;
+      direction: rtl;
+}
+
+.hidden {
+  display: none;
+}
+
+.input_box {
+  background-color: rgb(238, 240, 240);
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+
